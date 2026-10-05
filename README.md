@@ -1,5 +1,13 @@
 # Keeper
 
+Angela Yu/The App Brewery's famous Keeper React app, made better with:
+- [Bun](https://bun.com) (init in `v1.3.10`)
+- Tailwind
+- TypeScript
+- SQLite
+
+You need to [install Bun](https://bun.com/install) to run this app. After install, follow instruction below.
+
 Notes are stored on the server in SQLite and loaded when the app opens. Adding
 and deleting notes updates the database, so changes survive page reloads and
 server restarts. The app uses Bun's built-in `bun:sqlite`; no database service
@@ -39,8 +47,6 @@ To run for production:
 ```bash
 bun start
 ```
-
-This project was created using `bun init` in bun v1.3.10. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
 
 Run the API validation and database persistence tests:
 
