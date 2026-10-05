@@ -6,7 +6,7 @@ Angela Yu/The App Brewery's famous Keeper React app, made better with:
 - TypeScript
 - SQLite
 
-You need to [install Bun](https://bun.com/install) to run this app. After install, follow instruction below.
+You need to [install Bun](https://bun.com/get) to run this app. After install, follow instruction below.
 
 Notes are stored on the server in SQLite and loaded when the app opens. Adding
 and deleting notes updates the database, so changes survive page reloads and
