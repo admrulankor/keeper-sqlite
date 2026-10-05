@@ -5,6 +5,7 @@ Angela Yu/The App Brewery's famous Keeper React app, made better with:
 - Tailwind
 - TypeScript
 - SQLite
+- And last but not least, the latest React syntax
 
 You need to [install Bun](https://bun.com/get) to run this app. After install, follow instruction below.
 
